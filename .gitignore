@@ -1,0 +1,17 @@
+# окружение
+.venv/
+__pycache__/
+
+# данные генерируются: python generator/generate.py
+data/
+
+# база DuckDB собирается из data/ и sql/
+*.duckdb
+*.duckdb.wal
+
+# черновик решения — только для себя
+Лаб 1 реш.md
+Лекция_1_Хранилища_данных_теория.md
+
+# временные файлы Word
+~$*.docx
